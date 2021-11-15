@@ -1,4 +1,4 @@
-all: kilo2 kilo3 kilo4 kilo5 kilo6 kilo7 kilo8 kilo9 kilo10 kilo11 kilo12 kilo13 kilo14 kilo15 kilo16
+all: kilo2 kilo3 kilo4 kilo5 kilo6 kilo7 kilo8 kilo9 kilo10 kilo11 kilo12 kilo13 kilo14 kilo15 kilo16 kilo17 step21
 
 kilo2: kilo2.c
 	$(CC) kilo2.c -o kilo2 -Wall -Wextra -pedantic -std=c99
@@ -30,3 +30,8 @@ kilo15: kilo15.c
 	$(CC) kilo15.c -o kilo15 -Wall -Wextra -pedantic -std=c99
 kilo16: kilo16.c
 	$(CC) kilo16.c -o kilo16 -Wall -Wextra -pedantic -std=c99
+kilo17: kilo17.c
+	$(CC) kilo17.c -o kilo17 -Wall -Wextra -pedantic -std=c99
+step21: step21.c
+	$(CC) step21.c -o step21 -Wall -Wextra -pedantic -std=c99
+
